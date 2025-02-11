@@ -53,7 +53,8 @@ mvn spring-boot:run
 
 🌾 Fazendas
 
-Criar uma fazenda
+• Criar uma fazenda
+
 POST /farms
 
 📥 Exemplo de requisição:
@@ -73,7 +74,8 @@ POST /farms
 }
 ```
 
-Listar todas as fazendas
+• Listar todas as fazendas
+
 GET /farms
 
 📤 Exemplo de requisição:
@@ -92,7 +94,8 @@ GET /farms
 ]
 ```
 
-Buscar uma fazenda pelo ID
+• Buscar uma fazenda pelo ID
+
 GET /farms/{id}
 
 📤 Exemplo de resposta para /farms/3:
@@ -106,7 +109,8 @@ GET /farms/{id}
 
 🌱 Plantações
 
-Adicionar uma plantação a uma fazenda
+• Adicionar uma plantação a uma fazenda
+
 POST /farms/{farmId}/crops
 
 📥 Exemplo de requisição para /farms/1/crops:
@@ -126,7 +130,8 @@ POST /farms/{farmId}/crops
 }
 ```
 
-Listar plantações de uma fazenda específica
+• Listar plantações de uma fazenda específica
+
 GET /farms/{farmId}/crops
 
 📤 Exemplo de resposta para /farms/1/crops:
@@ -147,7 +152,8 @@ GET /farms/{farmId}/crops
 ]
 ```
 
-Listar todas as plantações
+• Listar todas as plantações
+
 GET /crops
 
 📤 Exemplo de resposta:
@@ -174,7 +180,8 @@ GET /crops
 ]
 ```
 
-Buscar uma plantação pelo ID
+• Buscar uma plantação pelo ID
+
 GET /crops/{id}
 
 📤 Exemplo de resposta para /crops/3:
@@ -188,7 +195,8 @@ GET /crops/{id}
 ```
 
 
-Busca plantações com base em critérios específicos.
+• Busca plantações com base em critérios específicos.
+
 GET /crops/search
 
 📤 Exemplo de resposta:
@@ -213,7 +221,8 @@ GET /crops/search
 ]
 ```
 
-Cadastra um novo fertilizante.
+• Cadastra um novo fertilizante.
+
 POST /fertilizers
 
 📤 Exemplo de requisição:
@@ -234,7 +243,8 @@ POST /fertilizers
 }
 ```
 
-Lista todos os fertilizantes cadastrados.
+• Lista todos os fertilizantes cadastrados.
+
 GET /fertilizers
 
 📤 Exemplo de resposta:
@@ -261,7 +271,8 @@ GET /fertilizers
 ]
 ```
 
-Obtém detalhes de um fertilizante específico pelo ID.
+• Obtém detalhes de um fertilizante específico pelo ID.
+
 GET /fertilizers/{id}
 
 📤 Exemplo de resposta:
@@ -274,7 +285,8 @@ GET /fertilizers/{id}
 }
 ```
 
-Associa um fertilizante a uma plantação.
+• Associa um fertilizante a uma plantação.
+
 POST /crops/{cropId}/fertilizers/{fertilizerId}
 
 📤 Exemplo de resposta:
@@ -282,7 +294,8 @@ POST /crops/{cropId}/fertilizers/{fertilizerId}
 Fertilizante e plantação associados com sucesso!
 ```
 
-Lista os fertilizantes associados a uma plantação.
+• Lista os fertilizantes associados a uma plantação.
+
 GET /crops/{cropId}/fertilizers
 
 📤 Exemplo de resposta:
@@ -303,7 +316,8 @@ GET /crops/{cropId}/fertilizers
 ]
 ```
 
-Salvar novas pessoas no banco de dados:
+• Salvar novas pessoas no banco de dados:
+
 POST /persons
 
 📤 Exemplo de requisição:
