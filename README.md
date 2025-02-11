@@ -38,12 +38,16 @@ winget install --id Git.Git -e --source winget
 ```
 Ou você pode seguir a documentação do site [git](https://git-scm.com/downloads) para mais meios de instalação.
 
-• Navegue até a pasta criada no clone e abra o terminal
+• Navegue até a raiz da pasta criada no clone, abra o terminal e digite o comando:
 ```bash
 mvn install
 ```
+• Navegue até \src\main\java\com\betrybe\agrix\AgrixApplication.java e rode a aplicação manualment ou com:
+```bash
+mvn spring-boot:run
+```
 
-Para iniciar a aplicação navegue para a pasta src/main/java/com/betrybe/agrix/AgrixApplication.java e inicie a aplicação.
+• Navegue até a pasta criada no clone e abra o terminal
 
 ⚠️**Atenção:** A aplicação usa por padrão a porta 8080 então certifique-se de tela disponível
 
