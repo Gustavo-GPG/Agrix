@@ -15,7 +15,7 @@ A aplicação possui as funcionalidades básicas de criar, ler, atualiazar e del
 <details>
   <summary>📊 Diagrama Relacional de Entidades</summary>
   
-  ![DRE-Agrix](https://github.com/user-attachments/assets/054a0058-9dd3-4bb2-b07d-e94ab8874516)
+  ![DRE-Agrix](DRE-Agrix.png)
 
 </details>
 
